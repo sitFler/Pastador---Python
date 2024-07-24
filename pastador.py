@@ -55,7 +55,7 @@ def coladir(arq):
 dir = os.listdir('./')
 while True:
     numConfirmacao = randint(100,999)
-    resp = str(input(f'Este programa vai mover todos arquivos para arrumar. \nDidite [{numConfirmacao}] para continuar'))
+    resp = str(input(f'Este programa vai organizar seus arquivos por pastas. \nDidite [{numConfirmacao}] para continuar'))
     if resp.isnumeric() == False:
         break
     else:
